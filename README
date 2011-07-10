@@ -1,0 +1,8 @@
+VeganDrinks! for webOS
+
+Palm Mojo App for displaying & searching the public data feed from barnivore.com
+
+Supported categories: wine, liquor, and beer.  (JSON) data is stored locally.  
+Does not yet support syncing with barnivore.com for updates to the data.
+
+Builds via "make".  Build output can be found in the build directory.
