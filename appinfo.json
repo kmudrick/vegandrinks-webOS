@@ -1,0 +1,9 @@
+{
+	"id": "com.mudrick.vegandrinks",
+	"version": "1.0.1",
+	"vendor": "Kevin Mudrick",
+	"type": "web",
+	"main": "index.html",
+	"title": "Vegan Drinks!",
+	"icon": "icon.png"
+}

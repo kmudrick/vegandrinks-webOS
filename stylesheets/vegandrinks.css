@@ -1,0 +1,82 @@
+body.palm-default {
+  background-color: #ffffff;
+}
+
+#resultsList .palm-row {
+  min-height: 45px;
+}
+
+.result {
+  padding-left: 5px;
+  padding-right: 5px;  
+  text-align: left;
+}
+
+.result .name {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.result .location {
+  font-size: 12px;
+}
+
+.result .vstatus {
+  line-height: 25px;
+  font-size: 9px;
+}
+
+.result .left-column {
+  float: left;
+  width: 260px;
+}
+
+.result .right-column {
+  float: right;
+}
+
+.result .notes {
+  margin-top: 5px;
+}
+
+.result .details {
+  clear: both;	
+  font-size: 12px;
+  /*-webkit-border-radius: 10px;*/
+  /*border: 2px solid #000;*/
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+.result .lastUpdated {
+  font-style: italic;
+  font-size: 12px;
+}
+
+.none {
+  display: none;
+}
+
+.noResults {
+  margin-left: 10px;
+}
+
+.scene-fade-top {
+  position: fixed; 
+  top: 0; 
+  z-index: 10000;
+  height: 54px; 
+  width: 100%;
+  background: url(../images/scene-fade-top.png) top center repeat-x;
+  -webkit-palm-mouse-target: ignore;
+}
+
+.scene-fade-bottom {
+  position: fixed; 
+  bottom: 0; 
+  z-index: 10000;
+  height: 54px; 
+  width: 100%;
+  background: url(../images/scene-fade-bottom.png) bottom center repeat-x;
+  -webkit-palm-mouse-target: ignore;
+}
